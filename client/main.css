@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(http://www.hdnicewallpapers.com/Walls/Big/House%20and%20Bungalow/Different_New_Small_Luxury_House_4K_Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* Header Header Header Header Header Header Header Header Header Header Header Header */
+
+
+#header {
+  background-color: #323033;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#header-img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+#nav-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+#nav-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+}
+
+#nav-link:hover {
+  color: #fdd910;
+}
+
+
+/* Wallpaper */
+
+
+#wallpaper {
+  margin: 30%;
+}
+
+
+/* About About About About About About About About About About About About */
+
+
+#about {
+  background-color: #323033;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#about-h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+#about-p {
+  color: white;
+  border-left: 6px solid #fdd910;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Video Video Video Video Video Video Video Video Video Video Video Video */
+
+
+#video {
+  background-color: #323033;
+  padding: 40px;
+}
+
+#youtube-video {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Services Services Services Services Services Services Services Services Services */
+
+
+#services {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+#services-h1 {
+  color: #323033;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+}
+
+#services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+#services-container {
+  background-color: #323033;
+  border: 20px solid #323033;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#services-title {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #fdd910;
+}
+
+#services-price {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+}
+
+#services-details {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 15px;
+}
+
+#services-select {
+  background-color: #fdd910;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+#services-select:hover {
+  color: #323033;
+  background-color: white;
+}
+
+
+/* Contact Contact Contact Contact Contact Contact Contact Contact Contact Contact */
+
+
+#contact {
+  background-color: #fdd910;
+  padding: 20px
+}
+
+#contact-h1 {
+  color: #323033;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#contact-form {
+  padding: 9px;
+  background-color: #323033;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  margin: 0 auto;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #323033;
+  color: white;
+}
+
+#submit:hover {
+  background-color: white;
+  color: #323033;
+}
+
+
+/* Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer */
+
+
+footer {
+  background-color: #323033;
+  text-align: center;
+  padding: 20px;
+}
+
+footer, a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer, a:hover {
+  color: #fdd910;
+}
+
+
+/* Media Media Media Media Media Media Media Media Media Media Media Media */
+
+
+@media only screen and (max-width: 1200px) {
+  #services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #nav-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  #youtube-video {
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #services-container {
+    width: 200px;
+  }
+}
